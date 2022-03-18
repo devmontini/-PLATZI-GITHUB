@@ -1,2 +1,5 @@
 HOla hoy es un dia nuevol
  Se edito por primera ve
+
+
+ git commit -am "commit y add juntos"
