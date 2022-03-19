@@ -1,5 +1,18 @@
-HOla hoy es un dia nuevol
- Se edito por primera ve
+# GITHUB COMANDS 
+    git init =  inicia un repo local de git (archivos locales, storage, repo local git)
+   
+    git add . / git add archivo = me agrega los cambios al storage
+    git commit -m "asd" = me agrega los cambios al repo local
+    git status = stado de los archivos u archivos
+    git commit -am "commit y add juntos"
+    git show = me muestra el historial de cambios
+    git log archivo.asd = me muestra el historial de un archivo
+
+    git push = me sube al repo de github (en la rama de donde estoy trabajando)
+    git fetch = me trae los cambios al repo local de github
+    git merge = me trae los cambios a mi archivos locales
+    git pull = es fetch y merge juntos (utilizar este)
 
 
- git commit -am "commit y add juntos"
+    git branch cabecera = crea nueva rama (desde donde estoy posicionado)
+    git checkout cabecera = me mueve a la rama cabecera
