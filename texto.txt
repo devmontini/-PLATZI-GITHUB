@@ -1,1 +1,5 @@
-*al hacer un comit y mergar se unen
+LLAVES PUBLICAS Y PRIVADAS EN GITHUB
+
+      YO                        GIT
+MI llave pbublica     ->   MI llave privada
+Github llave privada  <- 

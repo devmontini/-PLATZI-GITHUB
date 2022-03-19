@@ -22,6 +22,20 @@
     git branch nuevarama = crea nueva rama (desde donde estoy posicionado)
     git checkout nuevarama = me mueve a la rama nuevarama
 
+# mensajes keys
+
+    ssh-keygen -t rsa -b 4096 -C EMAIL = Creando nuestra llave privada
+    luego el passphrase = contrasenia con espacios
+    carpeta .ssh = ahi es donde estan nuestras llaves
+    eval $(ssh-agent -s) = evaluar si nuestro pc compreuba keys
+    cd ~/.algo/ = vamos a la capeta oculta
+    ssh-add ~/.algo/idoculto = y lo agregamos al agentKeys
+
+    luego copiar ID publica = y pegarla en nuestro perfil(llaves) de GIT
+    git remote set-url origin SSH = cambia nuestro URL por uno con KEY
+    git remote origin SSH = usar ese con keys y no el de URL al clonar
+    git remote -v = y comprobar
+
 # config git
 
     git config = ver las config de git
@@ -32,6 +46,7 @@
 
 # movimiento de carpetas
 
+    ~ = shorcut de nuestra carpeta home
     cd / cd dir:carpeta / cd . / cd.. = movimiento de carpetas
     ls / ls -al / ls -a / ls -l = lista directorios (a ocultos, l lista)
     clear / ctrl + c = limpiar linea de comandos
