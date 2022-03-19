@@ -59,6 +59,9 @@
 
 # Manejo de ramas
 
+    git branch -d rama = elimina rama git
+    git branch -D rama = elimina rama todo
+
 # config git
 
     git config = ver las config de git
