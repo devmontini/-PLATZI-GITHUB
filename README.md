@@ -12,6 +12,7 @@
     git diff commit.A / git diff commit.A commit.B = compara 1 o 2 commits
     git reset commit.A --soft = vuelve un commit atras del git local
     git reset commit.A --hard = vuelve un commit atras de git y pc
+    git merge ramavieja = me trae los cambios de ramavieja a esta
 
     git push = me sube al repo de github (en la rama de donde estoy trabajando)
     git fetch = me trae los cambios al repo local de github
