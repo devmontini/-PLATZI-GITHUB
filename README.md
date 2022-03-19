@@ -1,11 +1,3 @@
-# config git
-
-    git config
-    git list
-    git config --list --show--original
-    git config --global user.name
-    git config --global user.email
-
 # git hub comands
 
     git init =  inicia un repo local de git (archivos locales, storage, repo local git)
@@ -27,6 +19,14 @@
 
     git branch nuevarama = crea nueva rama (desde donde estoy posicionado)
     git checkout nuevarama = me mueve a la rama nuevarama
+
+# config git
+
+    git config
+    git list
+    git config --list --show--original
+    git config --global user.name
+    git config --global user.email
 
 # movimiento de carpetas
 
