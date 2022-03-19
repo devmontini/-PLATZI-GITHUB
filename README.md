@@ -36,6 +36,16 @@
     git remote origin SSH = usar ese con keys y no el de URL al clonar
     git remote -v = y comprobar
 
+# git VERSIONS tags logs grapash
+
+    git log --graph = para ver las lineas de trabajo
+    git log --graph --decorate --oneline = mas comprimido
+    alias nombre="git log --graph" = da nombre a los comandos
+
+    git tag -a v0.1 -m "Resultado primeras clases" 13beddb = nos crea tag
+    git tag = nos muestra los tag
+    git show-ref --tags = nos muestra relacion commit con el tag
+
 # forma basica de trabajo
 
     git pull origin main = traer de main (pedira nuestra pass de ssh)
