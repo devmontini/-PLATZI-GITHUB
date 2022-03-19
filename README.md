@@ -36,6 +36,14 @@
     git remote origin SSH = usar ese con keys y no el de URL al clonar
     git remote -v = y comprobar
 
+# forma basica de trabajo
+
+    git pull origin main = traer de main (pedira nuestra pass de ssh)
+    git add . / git add archivo.asd  = guardar en storage
+    git commit -m "asd" = guardar en git local
+    git pull origin main = traer de github y comprobar si todo andar
+    git push orgin master = y por ultimo subir
+
 # config git
 
     git config = ver las config de git
