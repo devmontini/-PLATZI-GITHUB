@@ -13,13 +13,14 @@
     git reset commit.A --soft = vuelve un commit atras del git local
     git reset commit.A --hard = vuelve un commit atras de git y pc
     git merge ramavieja = me trae los cambios de ramavieja a esta
+    git remote origin ssh/url = a donde voy a pushear
 
     git push = me sube al repo de github (en la rama de donde estoy trabajando)
     git fetch = me trae los cambios al repo local de github
     git merge = me trae los cambios a mi archivos locales
     git pull = es fetch y merge juntos (utilizar este)
 
-
+    git branch = me muestra las ramas
     git branch nuevarama = crea nueva rama (desde donde estoy posicionado)
     git checkout nuevarama = me mueve a la rama nuevarama
 
@@ -39,11 +40,14 @@
 
 # forma basica de trabajo
 
+    git clone ssh = clona una rama
+    git branch nuevarama = crea rama
+    git checkout nuevarama = entramos a la nueva arama
     git pull origin main = traer de main (pedira nuestra pass de ssh)
     git add . / git add archivo.asd  = guardar en storage
     git commit -m "asd" = guardar en git local
     git pull origin main = traer de github y comprobar si todo andar
-    git push orgin master = y por ultimo subir
+    git push origin main = y por ultimo subir
 
 # git VERSIONS tags logs grapash
 
@@ -62,6 +66,9 @@
 
     git branch -d rama = elimina rama git
     git branch -D rama = elimina rama todo
+    git show-branch = la historia de vida de todas las ramas
+    git show-branch --all = la historia de las ramas con mas datos
+    gitk = software de git
 
 # config git
 
