@@ -36,6 +36,14 @@
     git remote origin SSH = usar ese con keys y no el de URL al clonar
     git remote -v = y comprobar
 
+# forma basica de trabajo
+
+    git pull origin main = traer de main (pedira nuestra pass de ssh)
+    git add . / git add archivo.asd  = guardar en storage
+    git commit -m "asd" = guardar en git local
+    git pull origin main = traer de github y comprobar si todo andar
+    git push orgin master = y por ultimo subir
+
 # git VERSIONS tags logs grapash
 
     git log --graph = para ver las lineas de trabajo
@@ -45,14 +53,11 @@
     git tag -a v0.1 -m "Resultado primeras clases" 13beddb = nos crea tag
     git tag = nos muestra los tag
     git show-ref --tags = nos muestra relacion commit con el tag
+    git push origin --tags = le enviamos los tags
+    git tag -d nobre = borra el tag de desktop(no github)
+    git push origin :refs/tags/dormido = borra el tag de github
 
-# forma basica de trabajo
-
-    git pull origin main = traer de main (pedira nuestra pass de ssh)
-    git add . / git add archivo.asd  = guardar en storage
-    git commit -m "asd" = guardar en git local
-    git pull origin main = traer de github y comprobar si todo andar
-    git push orgin master = y por ultimo subir
+# Manejo de ramas
 
 # config git
 
