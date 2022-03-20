@@ -125,3 +125,8 @@
     Pull request y commits = y se actuializa
     PROTEJER .git - Cuidar
     PROBAR Travis CI  o JENKINS para manejar server FREE
+
+# GIT IGNORE
+
+    .gitignore = archivo para ignorar
+    *.jpg = extenciones a ignorar
