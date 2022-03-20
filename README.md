@@ -187,3 +187,7 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 
     quitar archivos no trakeados y .gitignore
     git clean --dry-run = me va a mostrar los archivos a borrar
+
+# GIT CHERRY
+
+    git cherry-pick IDcommit= me trae UN commit de otra rama
