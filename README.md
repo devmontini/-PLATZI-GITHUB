@@ -44,10 +44,11 @@
     git branch nuevarama = crea rama
     git checkout nuevarama = entramos a la nueva arama
     git pull origin main = traer de main (pedira nuestra pass de ssh)
+    git pull origin rama = traer la rama que vamos a trabajar
     git add . / git add archivo.asd  = guardar en storage
     git commit -m "asd" = guardar en git local
-    git pull origin main = traer de github y comprobar si todo andar
-    git push origin main = y por ultimo subir
+    git pull origin main/rama = traer de github y comprobar todo ok
+    git push orgin master/rama = y por ultimo subir
 
 # git VERSIONS tags logs grapash
 
