@@ -111,3 +111,9 @@
     Estrella = este prollegto me gusta
     Fork = Copia del estado actual del proy y clonarlo
     Git clone URL
+    Git pull reques de ramas a rams entre repos\
+
+    Git remote add upstream URL = nos agrega repo en repo
+    git remote -v = nos muestra las fuentes de datos
+
+    git pull upstream main/rama = nos trae la fuente de otra data
