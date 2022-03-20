@@ -175,4 +175,5 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
     Guardar en memoria y hacer comit mas tarde
     EJ:
     git stash = guardo estos cambios
-
+    git stash list = me mmuestra los stash
+    git stash pop = sttrae los cambios
