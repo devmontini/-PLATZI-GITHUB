@@ -63,8 +63,6 @@
 
 # git VERSIONS tags logs grapash
 
-# git VERSIONS tags logs grapash
-
     git log --graph = para ver las lineas de trabajo
     git log --graph --decorate --oneline = mas comprimido
     alias nombre="git log --graph" = da nombre a los comandos
