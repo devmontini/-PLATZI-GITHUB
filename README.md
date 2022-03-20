@@ -50,6 +50,15 @@
     git pull origin main/rama = traer de github y comprobar todo ok
     git push orgin master/rama = y por ultimo subir
 
+    git merge rama = posicionado en main o otra (trae lo de rama)
+
+# CREATE PULL REQUEST
+
+    SQUESH Y REBASE MALAS PRACTICAS
+    create pull request = Comentear ,  reviews , asignar
+    cancelar pull = comentar y arreglar
+    confirmar request = comentar tips y aceptar
+
 # git VERSIONS tags logs grapash
 
     git log --graph = para ver las lineas de trabajo
