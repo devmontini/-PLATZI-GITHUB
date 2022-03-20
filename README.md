@@ -182,3 +182,8 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
     git stash drop = elimina los stash entonces recuperas
     * es bueno para probar cosas
     * cuando tienes mucho trabajo adelantado y queres reveer otras ramas
+
+# GIT CLEAN
+
+    quitar archivos no trakeados y .gitignore
+    git clean --dry-run = me va a mostrar los archivos a borrar
