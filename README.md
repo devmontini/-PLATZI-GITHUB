@@ -117,3 +117,11 @@
     git remote -v = nos muestra las fuentes de datos
 
     git pull upstream main/rama = nos trae la fuente de otra data
+
+# DEPLOYMENT A UN SERVER
+
+    primero servidor = servidor wwe.ejemplo.com
+    git clone URL = cloanr primero repo
+    Pull request y commits = y se actuializa
+    PROTEJER .git - Cuidar
+    PROBAR Travis CI  o JENKINS para manejar server FREE
