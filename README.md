@@ -190,4 +190,50 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 
 # GIT CHERRY
 
+    MALA PRACTICA mejor merge
     git cherry-pick IDcommit= me trae UN commit de otra rama
+
+# GIT AMEND
+
+    git commit -am "alalal" = commit realizado
+    hacer cambio q olvidaste
+    git commit --amend = te pega los cambios al commit anterior
+
+# GREP y LOG
+
+    Buscar en commits (log) y archivos(grep)
+    git grep PALABRA = me muestra los lugars de donde esta
+    git grep -n PALABRA = me muestra las lineas
+    git grep -c PALABRA = cuantas veces la usamos
+    git grep -c "<p>" = para etiquetas
+    git log -S "PALABRA" = donde use las palabra en commit
+
+# COMANDOS COLABORATIVOS
+
+    git shortlog = log por persona
+    git shortlog -sn = cantidad de commits
+    git shortlog -sn --all = y los borrado tambien
+    git shortlog -sn --all --no-merges = sin marges
+
+    git config --global alias.stats "git shortlog -sn --all --no-merges"
+    git stats = me muestra lo de arriba
+
+    git blame ARCHIVO = ver quien cambio que cosa en tal archivo
+    git blame -c ARCHIVO = se ve mejor
+    git blame --help = manual del comando blame
+
+    git blame ARCHIVO -L35,53 = quien vambio de tal linea a linea
+
+    git branch = ves ramas actuales de
+    git branch -r = ramas remotas en mi server
+    git branch -a = Locales y remotas
+
+    * github insigts desde el repo para ver que esta pasando (stats)
+
+# Futuro con GIT y GITHUB
+
+    continuar trabajando con todo lo aprendido
+    APRENDER CICLO DE VIDA, MONITOREAR
+    APRENDER > TRAVIS o JENKINS
+    DEV OPS > AZURE
+    GIT LAB > TODO ACA JUNTO
