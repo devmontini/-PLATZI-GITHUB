@@ -1,3 +1,23 @@
+# Hyperblog 💚
+
+Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git-github/ " curso de Git y Github") de [Platzi](https://platzi.com/ "Platzi")
+
+> UN curso donde aprendi a usar las herrmientas de git y github para el flujo de trabajo
+>
+> - FM
+
+## En este curso vemos de todo
+
+- Todos los comandos de Git
+- El flujo de trabajo en Github
+- ELas buenas prácticas
+- Trucos
+- Creado por el increíble Platzi Team
+- Incluye ejemplos en Windows, Linux y Mac
+- Disponible para todas las edades
+
+\*\* IGNORAR LA PARTE DE ABAJO (NOTAS)
+
 # git hub comands
 
     git init =  inicia un repo local de git (archivos locales, storage, repo local git)
@@ -130,3 +150,9 @@
 
     .gitignore = archivo para ignorar
     *.jpg = extenciones a ignorar
+    LOS BINARIOS = no van en los repos
+
+# README.MD
+
+    Hacer un gran MD
+    EDITOR MD online = editor de readme
