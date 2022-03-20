@@ -161,7 +161,7 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 
     crear repo usuario.github.io
     git clone URL
-    git cd CARPETA 
+    git cd CARPETA
     vim index.html = crea archivo
     git status > add > commit
     git push origin master
@@ -173,5 +173,6 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 # GIT STASH
 
     Guardar en memoria y hacer comit mas tarde
-        
+    EJ:
+    git stash = guardo estos cambios
 
