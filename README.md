@@ -156,3 +156,22 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 
     Hacer un gran MD
     EDITOR MD online = editor de readme
+
+# GITHUB PAGES
+
+    crear repo usuario.github.io
+    git clone URL
+    git cd CARPETA 
+    vim index.html = crea archivo
+    git status > add > commit
+    git push origin master
+    revisar repo
+    ir a usuario.github.io (URLde github.pages)
+    Ir al repo > Settings > GithubPages > Main Branch > Save
+    *Y hacer lo mismo con todos los repos que quieras agregar
+
+# GIT STASH
+
+    Guardar en memoria y hacer comit mas tarde
+        
+
