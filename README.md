@@ -104,3 +104,10 @@
     !id = voy al historial del id del archivo en el (history)
     *rm / rm archivo.asd = elimino archivo o carpetas donde estoy parado
     --help = algun comando y --help me muestra la info del mismo
+
+# Colaboracions forks
+
+    Watch = notificaciones
+    Estrella = este prollegto me gusta
+    Fork = Copia del estado actual del proy y clonarlo
+    Git clone URL
