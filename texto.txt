@@ -1,5 +1,15 @@
-LLAVES PUBLICAS Y PRIVADAS EN GITHUB
-
+* SSH
+-LLAVES PUBLICAS Y PRIVADAS EN GITHUB
+Mas seguridad
       YO                        GIT
 MI llave pbublica     ->   MI llave privada
 Github llave privada  <- 
+ 
+* RAMAS 
+MAIN = RAMA DE PRODUCCION (server)
+sacamos de aca la ragam feature
+FEATURE = La que nosotros trabajamos de manera local ()
+y colocamos nuestros cambios en a travez de un pull request
+PULL REQUEST = Fase de prueba y aprovacion
+Una vez aprovado se lleva a MAIN
+DEVELOPER = RAMA DE DESARROLLO (server)
